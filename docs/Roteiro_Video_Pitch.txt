@@ -1,0 +1,24 @@
+ROTEIRO DO VÍDEO PITCH — RENTSMART (ATÉ 4 MINUTOS)
+
+[0:00–0:30 | Apresentação]
+Olá! Meu nome é Lara Machado Horacio, RA 249562. Vou apresentar o RentSmart, um sistema de orçamento de locação desenvolvido em Python para a imobiliária fictícia R.M Imóveis.
+
+[0:30–1:00 | Problema e solução]
+O problema identificado é que os orçamentos eram calculados manualmente, o que poderia gerar demora e erros. O RentSmart automatiza os cálculos de aluguel, adicionais, descontos e taxa contratual, além de gerar uma projeção de 12 meses em CSV.
+
+[1:00–1:35 | Fluxograma e classes]
+O fluxo começa com a coleta das informações do cliente e do imóvel. Depois, o sistema valida as escolhas, calcula o valor-base e os adicionais, aplica o desconto quando permitido, calcula a taxa contratual e gera o CSV. Foram criadas duas classes principais: Imovel, que concentra as regras específicas de cada tipo de imóvel, e Orcamento, que reúne os dados e calcula os valores finais.
+
+[1:35–2:50 | Demonstração]
+Agora vou executar o programa. Vou informar um cliente, escolher apartamento, dois quartos, uma vaga de garagem, indicar que não possui crianças e selecionar cinco parcelas para a taxa contratual. O sistema apresenta o aluguel-base, os adicionais, o desconto e o aluguel mensal. A taxa contratual de dois mil reais aparece separadamente, parcelada em cinco vezes de quatrocentos reais.
+
+[2:50–3:25 | CSV]
+Após o orçamento, o sistema gera o arquivo projecao_rentsmart_12_meses.csv. Nele, cada mês apresenta o aluguel, a parcela da taxa contratual e o total previsto. Depois do quinto mês, a taxa deixa de aparecer, permanecendo apenas o aluguel mensal.
+
+[3:25–3:55 | Encerramento]
+A orientação a objetos ajudou a separar as responsabilidades e organizar as regras em classes, tornando o código mais claro e fácil de manter. Assim, o RentSmart atende à proposta de automatizar os orçamentos da R.M Imóveis. Obrigada!
+
+LEMBRETE PARA A GRAVAÇÃO:
+- Compartilhe a tela mostrando o fluxograma/relatório, o código, a execução e o CSV.
+- Execute o programa ao vivo e faça pelo menos um orçamento completo.
+- Grave até 4 minutos e publique como não listado no YouTube ou plataforma aceita pela disciplina.
