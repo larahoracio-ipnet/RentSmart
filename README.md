@@ -81,7 +81,3 @@ Apartamento com dois quartos, garagem e cliente sem crianças:
 - Desconto de 5%: R$ 60,00
 - **Aluguel mensal: R$ 1.140,00**
 - Taxa contratual: R$ 2.000,00, em cinco parcelas de R$ 400,00.
-
-## Créditos e referência
-
-Este projeto foi desenvolvido e personalizado por Lara Machado Horacio para fins acadêmicos. O repositório público `Aguiar530/RentSmart` foi consultado como referência de organização e escopo funcional; esta entrega não altera aquele repositório nem reivindica sua autoria.
